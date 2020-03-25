@@ -53,9 +53,9 @@ bool hal_i2c_write_reg(const i2c_dev_t *dev, uint8_t reg, const void *out_data, 
     ret_code_t err_code = nrf_drv_twi_tx(&m_twi, dev->addr, data, out_size + 1, false);
     APP_ERROR_CHECK(err_code);
     if (err_code == NRF_SUCCESS) {
-        return false;
+        return true;
     }
-    return true;
+    return false;
 }
 
 bool hal_i2c_read_reg(const i2c_dev_t *dev, uint8_t reg, void *in_data, size_t in_size)
