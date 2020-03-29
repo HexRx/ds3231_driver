@@ -15,8 +15,8 @@
 [nRF5_SDK]: https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK
 
 ## Supported platforms
-[x] Nordic nRF5x (_[nRF5_SDK]_)  
-[ ] Espressif Systems ESP32 (_[ESP-IDF]_)  
+- [x] Nordic nRF5x (_[nRF5_SDK]_)  
+- [ ] Espressif Systems ESP32 (_[ESP-IDF]_)  
 
 ## Getting Started
 
